@@ -1,0 +1,118 @@
+.regPageContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+  justify-content: space-evenly;
+}
+
+.topSecOfRegPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.headingRegPage {
+  text-align: center;
+  color: #72db73;
+  font-family: var(--font-singleDay);
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.textRegPage {
+  color: white;
+  font-family: var(--font-dmSans);
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.formMain {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inpField {
+  align-self: center;
+  width: -webkit-fill-available;
+  height: 47.8704px;
+  background-color: #292929;
+  border: none;
+  border-radius: 3.82px;
+  color: white;
+  padding-left: 16px;
+  font-family: var(--font-dmSans);
+  font-weight: 400;
+  font-size: 18px;
+  /* margin-bottom: 10px; */
+}
+
+.inpField::placeholder {
+  padding-left: 5px;
+  font-family: var(--font-dmSans);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.checkboxWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkboxLabel {
+  font-family: var(--font-dmSans);
+  font-weight: 400;
+  font-size: 16px;
+  color: #7c7c7c;
+  cursor: pointer;
+}
+
+#checkboxInForm {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  margin: 16px 0px;
+  align-self: flex-start;
+}
+
+.signUpBtn {
+  background-color: #72db73;
+  border: none;
+  color: white;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  height: 45px;
+  border-radius: 28px;
+  letter-spacing: 2px;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.signUpBtn:hover {
+  background-color: #75f676;
+}
+
+.tAndcText p {
+  color: #7c7c7c;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.tAndcText p a {
+  color: #72db73;
+}
+
+.error {
+  color: #ff0000;
+  font-family: var(--font-dmSans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}

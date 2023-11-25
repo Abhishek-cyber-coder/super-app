@@ -1,5 +1,27 @@
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --font-dmSans: "DM Sans", sans-serif;
+  --font-singleDay: "Single Day", cursive;
+}
+
+html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
+}
+
+p,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
 }
