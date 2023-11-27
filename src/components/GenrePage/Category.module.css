@@ -1,0 +1,67 @@
+.wrapperForLeftSec {
+  margin-left: 2rem;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.LogoOfApp {
+  color: #72db73;
+  font-family: var(--font-singleDay);
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.textOnLeftSec {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 68px;
+  color: white;
+}
+
+.selectedCategories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.warningText {
+  display: inline-block;
+  margin-left: 16px;
+  color: #ff0000;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.wrapperForRightSec {
+  width: 60%;
+}
+
+.itemsGrid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 201px 201px 201px;
+  justify-content: center;
+}
+
+.nextPageBtn {
+  font-family: var(--font-dmSans);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 21px;
+  color: white;
+  right: 11%;
+  bottom: 17px;
+  position: fixed;
+  width: 148px;
+  height: 43px;
+  background-color: #148a08;
+  border: none;
+  border-radius: 38.86px;
+}

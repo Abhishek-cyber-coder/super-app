@@ -70,7 +70,7 @@ function SignupSection() {
 
     if (valid) {
       window.localStorage.setItem("userData", JSON.stringify(formData));
-      navigate("/category");
+      navigate("/genre");
     }
   };
   return (

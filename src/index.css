@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 input:focus {
   outline: none;
 }

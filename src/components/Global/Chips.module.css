@@ -1,0 +1,24 @@
+.chipContainer {
+  display: flex;
+  background-color: #148a08;
+  font-family: var(--font-roboto);
+  justify-content: space-around;
+  align-items: center;
+  width: 142px;
+  height: 37px;
+  font-size: 20.14px;
+  border-radius: 27px;
+}
+
+.chipContainer p:nth-child(1) {
+  color: white;
+}
+
+.chipContainer p:nth-child(2) {
+  color: #085c00;
+  cursor: pointer;
+}
+
+.chipContainer p:nth-child(2):hover {
+  scale: 1.5;
+}
