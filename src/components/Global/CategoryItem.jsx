@@ -20,7 +20,7 @@ function CategoryItem({ data, idx, categories, setCategories }) {
       key={idx}
       style={{
         backgroundColor: `${data.color}`,
-        border: `${selected ? "6px solid #11B800" : "none"}`,
+        border: `${selected ? "4px solid #11B800" : "4px solid white"}`,
       }}
       className={styles.item}
       onClick={handleClick}
