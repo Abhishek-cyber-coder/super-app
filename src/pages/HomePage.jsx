@@ -9,7 +9,7 @@ function HomePage() {
         style={{
           display: "grid",
           height: "90vh",
-          gridTemplateColumns: "55% 22%",
+          gridTemplateColumns: "55% 25%",
           gridTemplateRows: "65% 32%",
           rowGap: "20px",
           columnGap: "50px",

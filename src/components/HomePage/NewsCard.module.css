@@ -1,5 +1,70 @@
 .newsCard {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  background-color: #101744;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  background-color: white;
+  border-radius: 19px;
+}
+
+.newsImage img {
+  max-width: 100%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  height: -webkit-fill-available;
+}
+
+.titleSpace {
+  position: relative;
+  bottom: 46%;
+  height: 100px;
+  background: #0000007a;
+  color: white;
+  font-family: var(--font-roboto);
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.dateAndTime {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.textContent {
+  font-family: var(--font-roboto);
+  color: #272727;
+  line-height: 30px;
+  text-align: justify;
+  margin: 20px;
+}
+svg {
+  position: relative;
+  left: 37%;
+
+  bottom: 23%;
+  width: 100px;
+  height: 100%;
+
+  display: inline-block;
+}
+
+.readmoreBtn {
+  width: 30%;
+  height: 30px;
+  background-color: #5746ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  color: white;
+  font-family: var(--font-roboto);
+  letter-spacing: 1px;
 }
