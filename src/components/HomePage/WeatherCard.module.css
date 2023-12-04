@@ -3,3 +3,69 @@
   border-top-right-radius: 30px;
   background-color: #101744;
 }
+
+.topDateAndTimeBar {
+  width: 100%;
+  height: 90px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ff4ade;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-family: var(--font-roboto);
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+
+.weatherReport {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+.weatherCondition p {
+  font-family: var(--font-roboto);
+  font-size: 22px;
+  color: white;
+  line-height: 43px;
+  font-weight: 400;
+}
+
+.tempAndPressure p {
+  font-size: 60px;
+  color: white;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+}
+
+.tempAndPressure div span:nth-child(2) {
+  color: white;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+}
+
+.windAndHumidity div span {
+  margin-left: 10px;
+  color: white;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+}
+
+.windAndHumidity div:nth-child(2) {
+  margin-top: 10px;
+}
+
+.dash {
+  height: 85px;
+  border: 1px solid white;
+}
+
+.addFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

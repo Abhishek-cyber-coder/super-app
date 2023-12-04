@@ -10,7 +10,7 @@ function HomePage() {
           display: "grid",
           height: "90vh",
           gridTemplateColumns: "55% 25%",
-          gridTemplateRows: "65% 32%",
+          gridTemplateRows: "65% 36%",
           rowGap: "20px",
           columnGap: "50px",
           margin: "30px",

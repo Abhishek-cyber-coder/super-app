@@ -1,11 +1,11 @@
-export const getDateAsMMDDYYYYFormat = () => {
+export const getDateAsDDMMYYYYFormat = () => {
   const date = new Date();
   let day = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
   let month =
     date.getMonth() < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
   let year = date.getFullYear();
-  let dateAsMMDDYYYY = `${month}-${day}-${year}`;
-  return dateAsMMDDYYYY;
+  let dateAsDDMMYYYY = `${day}-${month}-${year}`;
+  return dateAsDDMMYYYY;
 };
 
 export const getTimeAsAmPmFormat = () => {

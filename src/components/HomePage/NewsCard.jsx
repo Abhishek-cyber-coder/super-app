@@ -4,7 +4,7 @@ import styles from "./NewsCard.module.css";
 import { getNews } from "../../apis/news";
 import { ToastContainer } from "react-toastify";
 import {
-  getDateAsMMDDYYYYFormat,
+  getDateAsDDMMYYYYFormat,
   getTimeAsAmPmFormat,
 } from "../../utils/helper";
 
@@ -46,8 +46,8 @@ function NewsCard() {
   }, []);
 
   useEffect(() => {
-    const fetchDateInMMDDYYYYFormat = getDateAsMMDDYYYYFormat();
-    setDate(fetchDateInMMDDYYYYFormat);
+    const fetchDateInDDMMYYYYFormat = getDateAsDDMMYYYYFormat();
+    setDate(fetchDateInDDMMYYYYFormat);
   });
 
   useEffect(() => {
